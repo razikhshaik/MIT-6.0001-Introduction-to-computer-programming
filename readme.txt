@@ -1,0 +1,2 @@
+This repo contains all the notes and the assignment solutions for "Introduction to Computer Science and Programming in Python" MIT 6.0001. Instructors Dr. Anal Bell, Prof. John Guttag, Prof. Eric Grimson.
+ 
