@@ -15,7 +15,7 @@ t3,DESCRIPTION,Clinton
 t4,AFTER,3 Oct 2016 17:00:10
 
 // composite trigger named t4
-t5,AND,t2,t3
+t5,OR,t2,t3
 
 // composite trigger named t4
 t6,AND,t1,t4

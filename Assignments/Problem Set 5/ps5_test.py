@@ -1,7 +1,7 @@
 # 6.00
 # Problem Set 5 Test Suite
 import unittest
-from ps5 import *
+from ps5_stock import *
 from datetime import timedelta
 
 
@@ -220,9 +220,11 @@ class ProblemSet5(unittest.TestCase):
         triggers = [tt, st, self.tt, self.ft]
         stories = [a, b, noa, nob]
         filtered_stories = filter_stories(stories, triggers)
+        #print("----------------------------++++++++++++++", stories, "++++++++++++++++++--------------------\n\n\n\n")
         for story in stories:
             self.assertTrue(story in filtered_stories)
         filtered_stories = filter_stories(stories, [self.ft])
+        #print("++++++++++++++++++++++++===============++++++++++++++++++++++++",len(filtered_stories),"----------------\n\n\n\n")
         self.assertEqual(len(filtered_stories), 0)
 
     def test8FilterStories2(self):
